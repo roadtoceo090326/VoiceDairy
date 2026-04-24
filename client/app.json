@@ -23,10 +23,17 @@
     },
     "web": {
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/favicon.png",
+      "bundler": "metro"
     },
     "plugins": [
       "expo-router",
+      [
+        "expo-av",
+        {
+          "microphonePermission": "Allow VoiceDiary to access your microphone to record voice notes."
+        }
+      ],
       [
         "expo-splash-screen",
         {

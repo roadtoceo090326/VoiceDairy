@@ -1,0 +1,52 @@
+# Changelog
+
+## Created
+
+- `src/types/index.ts`
+- `src/lib/constants.ts`
+- `src/lib/utils.ts`
+- `src/lib/mockAI.ts`
+- `src/lib/db.ts`
+- `src/lib/index.ts`
+- `src/stores/useJournalStore.ts`
+- `src/stores/useRecordingStore.ts`
+- `src/stores/useSettingsStore.ts`
+- `src/stores/index.ts`
+- `src/hooks/useAudioRecorder.ts`
+- `src/hooks/useAudioPlayer.ts`
+- `src/hooks/useWaveform.ts`
+- `src/hooks/useStreak.ts`
+- `src/hooks/useNotifications.ts`
+- `src/hooks/index.ts`
+- `src/components/ui/Button.tsx`
+- `src/components/ui/Card.tsx`
+- `src/components/ui/Badge.tsx`
+- `src/components/ui/Sheet.tsx`
+- `src/components/ui/EmptyState.tsx`
+- `src/components/ui/Toast.tsx`
+- `src/components/ui/index.ts`
+- `src/components/journal/TagChip.tsx`
+- `src/components/journal/MoodPicker.tsx`
+- `src/components/journal/EntryCard.tsx`
+- `src/components/journal/EntryList.tsx`
+- `src/components/journal/index.ts`
+- `src/components/recording/WaveformVisualizer.tsx`
+- `src/components/recording/RecordingTimer.tsx`
+- `src/components/recording/RecordingControls.tsx`
+- `src/components/recording/index.ts`
+- `src/components/insights/MoodChart.tsx`
+- `src/components/insights/StreakRow.tsx`
+- `src/components/insights/TagStats.tsx`
+- `src/components/insights/index.ts`
+- `app/recording.tsx`
+- `app/(tabs)/journal.tsx`
+- `app/(tabs)/insights.tsx`
+- `app/(tabs)/settings.tsx`
+- `CHANGELOG.md`
+
+## Modified
+
+- `app/_layout.tsx`
+- `app/(tabs)/_layout.tsx`
+- `app/(tabs)/index.tsx`
+- `app/entry/[id].tsx`
